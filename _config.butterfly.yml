@@ -1,1 +1,59 @@
 index_img: /img/20240813-105910.jpg
+
+nav:
+  # Navigation bar logo image
+  logo: /img/avater.jpg
+  display_title: true
+  # Whether to fix navigation bar
+  fixed: false
+
+menu:
+   Home: / || fas fa-home
+   List||fas fa-list:
+     Music: /music/ || fas fa-music
+     Movie: /movies/ || fas fa-video
+
+social:
+   fas fa-brands fa-bilibili: https://space.bilibili.com/5712212 || Bilibili || '#4a7dbe'
+   fas fa-solid fa-envelope: mailto:grasste0403@hotmail.com || E-mail || '#4a7dbe'
+
+avatar:
+  img: /img/avater.jpg
+  effect: false
+
+favicon: /img/avater.jpg
+
+subtitle:
+  enable: true
+  # Typewriter Effect (打字效果)
+  effect: true
+  # Customize typed.js
+  # https://github.com/mattboldt/typed.js/#customization
+  typed_option:
+  # source 調用第三方服務
+  # false 關閉調用
+  # 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # 2  調用一句網（簡體） http://yijuzhan.com/
+  # 3  調用今日詩詞（簡體） https://www.jinrishici.com/
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: true
+  # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
+  sub:
+    - 今天也是充满希望的一天
+    - Have a nice day!
+
+
+# Need to install the hexo-wordcount plugin
+wordcount:
+  enable: true
+  # Display the word count of the article in post meta
+  post_wordcount: true
+  # Display the time to read the article in post meta
+  min2read: true
+  # Display the total word count of the website in aside's webinfo
+  total_wordcount: true
+
+# Font settings for the site title and site subtitle
+blog_title_font:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font_family: 'Titillium Web'
