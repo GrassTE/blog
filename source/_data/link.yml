@@ -1,0 +1,7 @@
+- class_name: 友情链接
+  class_desc: 浪漫葱香的博客
+  link_list:
+    - name: 浪漫葱香的博客
+      link: https://romantoscalion.github.io/
+      avatar: https://romantoscalion.github.io/images/avatar.webp
+      descr: 首先是宅宅，然后是菜狗技术美术工程师
