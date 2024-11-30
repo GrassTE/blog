@@ -1,4 +1,6 @@
-index_img: /img/20240813-105910.jpg
+index_img: /img/top.jpg
+index_top_img_height: 480px
+background: /img/background.jpg
 
 nav:
   # Navigation bar logo image
@@ -9,9 +11,8 @@ nav:
 
 menu:
    Home: / || fas fa-home
-   List||fas fa-list:
-     Music: /music/ || fas fa-music
-     Movie: /movies/ || fas fa-video
+   Music: /music/ || fas fa-music
+   Movie: /movies/ || fas fa-video
 
 social:
    fas fa-brands fa-bilibili: https://space.bilibili.com/5712212 || Bilibili || '#4a7dbe'
